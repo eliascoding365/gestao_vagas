@@ -1,4 +1,4 @@
-package br.com.eliasmontan.gestao_vagas.modules.candidate.company.entities;
+package br.com.eliasmontan.gestao_vagas.modules.company.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
