@@ -12,7 +12,7 @@ import br.com.eliasmontan.gestao_vagas.modules.company.useCase.CreateCompanyUseC
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/company")
+@RequestMapping("/company/")
 public class CompanyController {
     @Autowired
     private CreateCompanyUseCase createCompanyUseCase;
