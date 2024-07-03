@@ -23,7 +23,7 @@ public class AuthCompanyUseCase {
     @Autowired
     private CompanyRepository companyRepository;
 
-    @Value("${security.token.service}")
+    @Value("${security.token.secret}")
     private String secretKey;
 
     @Autowired
