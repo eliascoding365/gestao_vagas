@@ -30,6 +30,7 @@ public class JobController {
         .companyId(UUID.fromString(companyId.toString()))
         .description(createJobDto.getDescription())
         .level(createJobDto.getLevel())
+        .build()
         ;
         return createJobUseCase.execute(jobEntity);
     }
